@@ -12,10 +12,11 @@ header > :nth-child(3){
     margin-inline: 5%;
 }
 
-.titulo{
+.titulo a{
     font-family: "Satisfy",cursive;
     color: white;
     font-size: smaller ;
+    text-decoration: none;
 }
 
 .links{
@@ -28,6 +29,7 @@ header > :nth-child(3){
     text-decoration: none;
     color: white;
     font-size: medium;
+    font-weight: 500;
 }
 
 .links a:hover{
@@ -55,4 +57,19 @@ header > :nth-child(3){
     scale: 1.05;
     transition: 0.3s all ease;
     background-color:rgb(130, 130, 206) ;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .links{
+        display: none;
+    }
+    .contactButton{
+        height: 2em;
+        width: 23%;
+    }
+
+    .titulo{
+        font-size: x-small;
+    }
 }

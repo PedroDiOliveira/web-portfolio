@@ -3,7 +3,7 @@ export default function Header(){
     return(
         <header>
             <div className="titulo">
-                <h1>Pedro Henrique</h1>
+                <a href="./"><h1>Pedro Henrique</h1></a>
             </div>
             <div className="links">
                 <a href=""><p>Projects</p></a>
