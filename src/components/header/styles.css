@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@700&family=Satisfy&display=swap');
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+}
+
+header > :nth-child(1),
+header > :nth-child(3){
+    margin-inline: 5%;
+}
+
+.titulo{
+    font-family: "Satisfy",cursive;
+    color: white;
+    font-size: smaller ;
+}
+
+.links{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+.links a:hover{
+    transition: 0.3s ease;
+    scale: 1.1;
+    color: rgb(101, 101, 209);
+}
+
+.contactButton{
+    height: 2em;
+    width: 10%;
+}
+
+.contactButton button{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    font-weight: 500;
+    background-color: rgb(101, 101, 209);
+    color: white;
+}
+
+.contactButton button:hover{
+    scale: 1.05;
+    transition: 0.3s all ease;
+    background-color:rgb(130, 130, 206) ;
+}
