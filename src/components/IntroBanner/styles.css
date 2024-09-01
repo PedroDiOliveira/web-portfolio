@@ -1,0 +1,36 @@
+section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.texto-introducao, .hello-responsive{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: xx-large;
+}
+
+strong{
+    color: #00bf72;
+}
+
+.hello-responsive{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .hello-responsive,.texto-introducao{
+        display: flex;
+        font-size: large;
+    }
+    .hello{
+        display: none;
+    }
+}
