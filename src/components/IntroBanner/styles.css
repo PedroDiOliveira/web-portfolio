@@ -20,8 +20,8 @@ strong{
 .hello-responsive{
     display: none;
 }
-
-@media screen and (max-width: 600px){
+/*Smartphones*/
+@media screen and (max-width: 1200px){
     section{
         display: flex;
         flex-direction: column;
@@ -34,3 +34,4 @@ strong{
         display: none;
     }
 }
+/*Tablets*/

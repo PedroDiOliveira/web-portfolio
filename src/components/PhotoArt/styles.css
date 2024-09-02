@@ -1,6 +1,6 @@
 .forma-geometrica{
-    height: 60vh;
-    width: 60vh;
+    height: 50vh;
+    width: 50vh;
     background-color: #26658C;
     padding: 30px 5%;
     border-radius: 30% 70% 37% 63% / 43% 70% 30% 57% ;
@@ -18,9 +18,18 @@
     border-radius: 54% 46% 68% 32% / 63% 30% 70% 37% ;
 }
 
+/* Smartphones*/
 @media screen and (max-width:600px){
     .forma-geometrica{
         width: 35vh;
         height: 35vh;
+    }
+}
+
+/*Tablets*/
+@media screen and (max-width: 1000px){
+    .forma-geometrica{
+        width: 45vh;
+        height: 45vh;
     }
 }
