@@ -1,8 +1,46 @@
-# React + Vite
+# Meu Portfólio de Desenvolvimento Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é meu portfólio de desenvolvimento web, onde apresento alguns dos projetos nos quais trabalhei e as tecnologias que utilizo. É uma vitrine do meu trabalho, mostrando minhas habilidades em front-end, back-end e design responsivo.
 
-Currently, two official plugins are available:
+## Demonstração ao Vivo
+Veja o portfólio em ação [aqui](https://meuportfolio.com). TODO
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Capturas de Tela
+![Home do Portfólio](./src/assets/page-screenshot.png)
+
+
+## Funcionalidades
+- Seção de apresentação pessoal.
+- Galeria de projetos com links para o GitHub. TODO
+- Formulário de contato funcional. TODO
+- Responsividade para diferentes dispositivos.
+- Modo claro/escuro. TODO
+
+## Tecnologias Utilizadas
+- React.js
+- JavaScript (ES6+)
+- Vite
+- React Router (para navegação) TODO
+
+## Instalação
+
+Siga os passos abaixo para rodar o projeto localmente:
+
+1. Clone o repositório:
+
+    ```bash
+    git clone https://github.com/PedroDiOliveira/web-portfolio.git
+    ```
+
+2. Instale as dependências:
+
+    ```bash
+    cd portfolio-react
+    npm install
+    ```
+
+3. Inicie o servidor de desenvolvimento:
+
+    ```bash
+    npm run dev
+    ```
