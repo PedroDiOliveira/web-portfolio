@@ -35,7 +35,7 @@ Siga os passos abaixo para rodar o projeto localmente:
 2. Instale as dependências:
 
     ```bash
-    cd portfolio-react
+    cd web-portfolio
     npm install
     ```
 
