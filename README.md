@@ -3,7 +3,7 @@
 Este é meu portfólio de desenvolvimento web, onde apresento alguns dos projetos nos quais trabalhei e as tecnologias que utilizo. É uma vitrine do meu trabalho, mostrando minhas habilidades em front-end, back-end e design responsivo.
 
 ## Demonstração ao Vivo
-Veja o portfólio em ação [aqui](https://meuportfolio.com). TODO
+Veja o portfólio em ação [aqui](https://web-portfolio-weld-sigma.vercel.app/). TODO
 
 ## Capturas de Tela
 ![Home do Portfólio](./src/assets/page-screenshot.png)
