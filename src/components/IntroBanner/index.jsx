@@ -9,7 +9,7 @@ export default function IntroBanner(){
             </div>
             <PhotoArt/>
             <div className="texto-introducao">
-                <h1 className="hello" >Hello,</h1><h1>i am <strong>Pedro</strong> <br /> web developer</h1>
+                <h1 className="hello" >Hello,</h1><h1>i am <strong>Pedro</strong>, <br /> tech enthusiast</h1>
             </div>
         </section>
     )
